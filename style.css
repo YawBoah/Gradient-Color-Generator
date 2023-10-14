@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #8A6CFF;
+  background: #2804b6;
 }
 
 /* Styling for the main wrapper */
@@ -112,22 +112,22 @@ body {
 
 /* Styling for the refresh button */
 .buttons .refresh {
-  background: #6C757D;
+  background: #e50505;
 }
 
 /* Hover styling for the refresh button */
 .buttons .refresh:hover {
-  background: #5f666d;
+  background: #f10707;
 }
 
 /* Styling for the copy button */
 .buttons .copy {
-  background: #8A6CFF;
+  background: #05e341;
 }
 
 /* Hover styling for the copy button */
 .buttons .copy:hover {
-  background: #704dff;
+  background: #120157;
 }
 
 /* Media Query for smaller screens (max-width: 432px) */
