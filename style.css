@@ -1,5 +1,7 @@
 /* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global styles for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Styling for the entire page body */
 body {
   padding: 0 10px;
   display: flex;
@@ -16,14 +19,16 @@ body {
   background: #8A6CFF;
 }
 
+/* Styling for the main wrapper */
 .wrapper {
   width: 450px;
   padding: 25px;
   background: #fff;
   border-radius: 7px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
 }
 
+/* Styling for the gradient background box */
 .wrapper .gradient-box {
   height: 220px;
   width: 100%;
@@ -31,27 +36,32 @@ body {
   background: linear-gradient(to left top, #5665E9, #A271F8);
 }
 
+/* Styling for rows within the wrapper */
 .wrapper .row {
   display: flex;
   margin: 20px 0;
   justify-content: space-between;
 }
 
+/* Styling for paragraph elements within the .options section */
 .options p {
   font-size: 1.1rem;
   margin-bottom: 8px;
 }
 
+/* Styling for columns within rows, as well as buttons */
 .row :where(.column, button) {
   width: calc(100% / 2 - 12px);
 }
 
+/* Styling for select boxes within the .options section */
 .options .select-box {
   border-radius: 5px;
   padding: 10px 15px;
   border: 1px solid #aaa;
 }
 
+/* Styling for select inputs */
 .select-box select {
   width: 100%;
   border: none;
@@ -60,19 +70,23 @@ body {
   background: none;
 }
 
+/* Styling for the palette section */
 .options .palette {
   margin-left: 60px;
 }
 
+/* Styling for color input elements within the palette */
 .palette input {
   height: 41px;
   width: calc(100% / 2 - 20px);
 }
 
+/* Special styling for the last color input in the palette */
 .palette input:last-child {
   margin-left: 6px;
 }
 
+/* Styling for textareas */
 .wrapper textarea {
   width: 100%;
   color: #333;
@@ -83,6 +97,7 @@ body {
   border: 1px solid #ccc;
 }
 
+/* Styling for buttons */
 .buttons button {
   padding: 15px 0;
   border: none;
@@ -95,45 +110,48 @@ body {
   transition: 0.3s ease;
 }
 
+/* Styling for the refresh button */
 .buttons .refresh {
   background: #6C757D;
 }
 
+/* Hover styling for the refresh button */
 .buttons .refresh:hover {
   background: #5f666d;
 }
 
+/* Styling for the copy button */
 .buttons .copy {
   background: #8A6CFF;
 }
 
+/* Hover styling for the copy button */
 .buttons .copy:hover {
   background: #704dff;
 }
 
-/* Media Query */
+/* Media Query for smaller screens (max-width: 432px) */
 @media screen and (max-width: 432px) {
-    .wrapper {
-      padding: 25px 20px;
-    }
-    .row :where(.column, button) {
-      width: calc(100% / 2 - 8px);
-    }
-    .options .select-box {
-      padding: 8px 15px;
-    }
-    .options .palette  {
-      margin-left: 40px;
-    }
-    .options .colors {
-      display: flex;
-      justify-content: space-between;
-    }
-    .palette input {
-      width: calc(100% / 2 - 5px);
-    }
-    .palette input:last-child {
-      margin-left: 0;
-    }
+  .wrapper {
+    padding: 25px 20px;
   }
-
+  .row :where(.column, button) {
+    width: calc(100% / 2 - 8px);
+  }
+  .options .select-box {
+    padding: 8px 15px;
+  }
+  .options .palette  {
+    margin-left: 40px;
+  }
+  .options .colors {
+    display: flex;
+    justify-content: space-between;
+  }
+  .palette input {
+    width: calc(100% / 2 - 5px);
+  }
+  .palette input:last-child {
+    margin-left: 0;
+  }
+}
