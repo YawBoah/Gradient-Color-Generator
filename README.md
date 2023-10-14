@@ -1,6 +1,6 @@
 # Gradient Color Generator App
 
-A simple web application that generates CSS gradient background code for websites. You can customize the gradient's direction and colors, and even copy the generated code to use in your projects. Try it out [here](#your-app-link).
+A simple web application that generates CSS gradient background code for websites. You can customize the gradient's direction and colors, and even copy the generated code to use in your projects. Try it out [here](https://yawboah.github.io/Gradient-Color-Generator/).
 
 ![Screenshot 2023-10-14 004746](https://github.com/YawBoah/Gradient-Color-Generator/assets/126890146/1506b5c4-e7e6-47a4-802b-4497f0999b4d)
 
