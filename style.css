@@ -111,3 +111,29 @@ body {
   background: #704dff;
 }
 
+
+@media screen and (max-width: 432px) {
+    .wrapper {
+      padding: 25px 20px;
+    }
+    .row :where(.column, button) {
+      width: calc(100% / 2 - 8px);
+    }
+    .options .select-box {
+      padding: 8px 15px;
+    }
+    .options .palette  {
+      margin-left: 40px;
+    }
+    .options .colors {
+      display: flex;
+      justify-content: space-between;
+    }
+    .palette input {
+      width: calc(100% / 2 - 5px);
+    }
+    .palette input:last-child {
+      margin-left: 0;
+    }
+  }
+
