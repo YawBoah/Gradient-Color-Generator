@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 body {
   padding: 0 10px;
   display: flex;
@@ -14,6 +15,7 @@ body {
   min-height: 100vh;
   background: #8A6CFF;
 }
+
 .wrapper {
   width: 450px;
   padding: 25px;
@@ -21,29 +23,35 @@ body {
   border-radius: 7px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.06);
 }
+
 .wrapper .gradient-box {
   height: 220px;
   width: 100%;
   border-radius: 7px;
   background: linear-gradient(to left top, #5665E9, #A271F8);
 }
+
 .wrapper .row {
   display: flex;
   margin: 20px 0;
   justify-content: space-between;
 }
+
 .options p {
   font-size: 1.1rem;
   margin-bottom: 8px;
 }
+
 .row :where(.column, button) {
   width: calc(100% / 2 - 12px);
 }
+
 .options .select-box {
   border-radius: 5px;
   padding: 10px 15px;
   border: 1px solid #aaa;
 }
+
 .select-box select {
   width: 100%;
   border: none;
@@ -51,16 +59,20 @@ body {
   font-size: 1.12rem;
   background: none;
 }
+
 .options .palette {
   margin-left: 60px;
 }
+
 .palette input {
   height: 41px;
   width: calc(100% / 2 - 20px);
 }
+
 .palette input:last-child {
   margin-left: 6px;
 }
+
 .wrapper textarea {
   width: 100%;
   color: #333;
@@ -70,6 +82,7 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
 .buttons button {
   padding: 15px 0;
   border: none;
@@ -81,15 +94,19 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
+
 .buttons .refresh {
   background: #6C757D;
 }
+
 .buttons .refresh:hover {
   background: #5f666d;
 }
+
 .buttons .copy {
   background: #8A6CFF;
 }
+
 .buttons .copy:hover {
   background: #704dff;
 }
