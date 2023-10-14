@@ -111,7 +111,7 @@ body {
   background: #704dff;
 }
 
-
+/* Media Query */
 @media screen and (max-width: 432px) {
     .wrapper {
       padding: 25px 20px;
