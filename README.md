@@ -6,7 +6,7 @@ A simple web application that generates CSS gradient background code for website
 
 Ready to experience the magic of the Gradient Color Generator App? Just a click away to explore stunning gradients and create beautiful backgrounds. Give it a whirl and see your creativity unfold!
 
-[![Enjoy the App](link-to-your-app-here)](link-to-your-app-here)
+[Enjoy the App](https://yawboah.github.io/Gradient-Color-Generator/)
 
 🌈 Click the button above to start creating eye-catching gradients for your projects. It's easy, it's fun, and it's all yours to enjoy!
 
