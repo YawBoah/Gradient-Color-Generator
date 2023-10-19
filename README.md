@@ -31,11 +31,9 @@ A simple web application that generates CSS gradient background code for website
 Contributions are welcome! If you have any ideas for improvement or find any issues, please submit them in the [GitHub repository](https://github.com/YawBoah/Gradient-Color-Generator).
 
 ## License
-
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as you like.
 
 ## Click Here to Enjoy the App
-
 Ready to experience the magic of the Gradient Color Generator App? Just a click away to explore stunning gradients and create beautiful backgrounds. Give it a whirl and see your creativity unfold!
 
 Click here to [Enjoy the App](https://yawboah.github.io/Gradient-Color-Generator/)
