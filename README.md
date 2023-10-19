@@ -6,14 +6,12 @@ A simple web application that generates CSS gradient background code for website
 ![Screenshot 2023-10-14 004746](https://github.com/YawBoah/Gradient-Color-Generator/assets/126890146/1506b5c4-e7e6-47a4-802b-4497f0999b4d)
 
 ## Features
-
 - Customize gradient direction.
 - Pick your own gradient colors.
 - Copy the generated CSS code to the clipboard.
 - Responsive design for various screen sizes.
 
 ## Getting Started
-
 1. Clone this repository or download the source code.
    
    ```bash
