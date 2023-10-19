@@ -21,7 +21,6 @@ A simple web application that generates CSS gradient background code for website
 2. Open the `index.html` file in your web browser or host the project on a web server.
 
 ## How to Use
-
 1. Choose a gradient direction from the "Direction" dropdown.
 2. Select your desired gradient colors using the color pickers.
 3. The gradient box will update in real-time as you make changes.
@@ -29,7 +28,6 @@ A simple web application that generates CSS gradient background code for website
 5. Click the "Copy Code" button to copy the CSS gradient code to your clipboard.
 
 ## Contributing
-
 Contributions are welcome! If you have any ideas for improvement or find any issues, please submit them in the [GitHub repository](https://github.com/YawBoah/Gradient-Color-Generator).
 
 ## License
